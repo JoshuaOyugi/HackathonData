@@ -1,0 +1,2048 @@
+2025-08-15 14:20:17,164 - INFO - Loading EPA fuel economy data...
+2025-08-15 14:20:17,324 - INFO - Loaded EPA data from vehicles.csv.zip: 48671 records
+2025-08-15 14:20:17,324 - INFO - Starting comprehensive vehicle data collection with EPA fuel economy...
+2025-08-15 14:20:17,324 - INFO - Fetching all vehicle makes...
+2025-08-15 14:20:17,324 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json
+2025-08-15 14:20:20,242 - INFO - Received 192 results
+2025-08-15 14:20:20,744 - INFO - Found 192 vehicle makes
+2025-08-15 14:20:20,745 - INFO - Found 192 valid vehicle makes after filtering
+2025-08-15 14:20:20,748 - INFO - Processing 5 makes for years [2008, 2009]
+2025-08-15 14:20:20,748 - INFO - Processing make: TOYOTA (ID: 448)
+2025-08-15 14:20:20,748 - INFO -   Processing year: 2008
+2025-08-15 14:20:20,748 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/TOYOTA/modelyear/2008?format=json
+2025-08-15 14:20:21,272 - INFO - Received 21 results
+2025-08-15 14:20:21,777 - INFO -     Found 21 models for TOYOTA 2008
+2025-08-15 14:20:21,807 - INFO -       Collected: TOYOTA Scion tC 2008
+2025-08-15 14:20:21,807 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,807 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:21,808 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:21,808 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:21,820 - INFO -       Collected: TOYOTA Corolla 2008
+2025-08-15 14:20:21,821 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,821 - INFO -         MPG: City 26, Highway 35, Combined 29
+2025-08-15 14:20:21,821 - INFO -         Consumption: 8.11 L/100km
+2025-08-15 14:20:21,821 - INFO -         Annual Cost: $1650
+2025-08-15 14:20:21,834 - INFO -       Collected: TOYOTA Prius 2008
+2025-08-15 14:20:21,834 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,834 - INFO -         MPG: City 48, Highway 45, Combined 46
+2025-08-15 14:20:21,834 - INFO -         Consumption: 5.11 L/100km
+2025-08-15 14:20:21,834 - INFO -         Annual Cost: $1050
+2025-08-15 14:20:21,855 - INFO -       Collected: TOYOTA Scion xB 2008
+2025-08-15 14:20:21,856 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,856 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:21,856 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:21,856 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:21,867 - INFO -       Collected: TOYOTA Land Cruiser 2008
+2025-08-15 14:20:21,867 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,867 - INFO -         MPG: City 13, Highway 18, Combined 15
+2025-08-15 14:20:21,867 - INFO -         Consumption: 15.68 L/100km
+2025-08-15 14:20:21,867 - INFO -         Annual Cost: $3200
+2025-08-15 14:20:21,879 - INFO -       Collected: TOYOTA Highlander 2008
+2025-08-15 14:20:21,879 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,879 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:21,879 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:21,879 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:21,895 - INFO -       Collected: TOYOTA 4-Runner 2008
+2025-08-15 14:20:21,896 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,896 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:21,896 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:21,896 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:21,909 - INFO -       Collected: TOYOTA RAV4 2008
+2025-08-15 14:20:21,909 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,909 - INFO -         MPG: City 21, Highway 27, Combined 24
+2025-08-15 14:20:21,909 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:21,909 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:21,922 - INFO -       Collected: TOYOTA Tacoma 2008
+2025-08-15 14:20:21,922 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,922 - INFO -         MPG: City 16, Highway 20, Combined 18
+2025-08-15 14:20:21,922 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:21,922 - INFO -         Annual Cost: $2700
+2025-08-15 14:20:21,934 - INFO -       Collected: TOYOTA FJ Cruiser 2008
+2025-08-15 14:20:21,934 - INFO -         Fuel: Premium
+2025-08-15 14:20:21,934 - INFO -         MPG: City 16, Highway 20, Combined 18
+2025-08-15 14:20:21,934 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:21,934 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:21,947 - INFO -       Collected: TOYOTA Yaris 2008
+2025-08-15 14:20:21,947 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,947 - INFO -         MPG: City 29, Highway 35, Combined 31
+2025-08-15 14:20:21,947 - INFO -         Consumption: 7.59 L/100km
+2025-08-15 14:20:21,947 - INFO -         Annual Cost: $1550
+2025-08-15 14:20:21,960 - INFO -       Collected: TOYOTA Avalon 2008
+2025-08-15 14:20:21,960 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,960 - INFO -         MPG: City 19, Highway 28, Combined 22
+2025-08-15 14:20:21,960 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:21,960 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:21,978 - INFO -       Collected: TOYOTA Corolla Matrix 2008
+2025-08-15 14:20:21,978 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,978 - INFO -         MPG: City 26, Highway 35, Combined 29
+2025-08-15 14:20:21,978 - INFO -         Consumption: 8.11 L/100km
+2025-08-15 14:20:21,978 - INFO -         Annual Cost: $1650
+2025-08-15 14:20:21,991 - INFO -       Collected: TOYOTA Tundra 2008
+2025-08-15 14:20:21,991 - INFO -         Fuel: Regular
+2025-08-15 14:20:21,991 - INFO -         MPG: City 15, Highway 19, Combined 17
+2025-08-15 14:20:21,991 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:21,991 - INFO -         Annual Cost: $2850
+2025-08-15 14:20:22,004 - INFO -       Collected: TOYOTA Sienna 2008
+2025-08-15 14:20:22,004 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,004 - INFO -         MPG: City 17, Highway 23, Combined 19
+2025-08-15 14:20:22,004 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:22,004 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:22,017 - INFO -       Collected: TOYOTA Camry 2008
+2025-08-15 14:20:22,017 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,018 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:22,018 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:22,018 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:22,029 - INFO -       Collected: TOYOTA Camry Solara 2008
+2025-08-15 14:20:22,029 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,029 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:22,029 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:22,029 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:22,043 - INFO -       Collected: TOYOTA Sequoia 2008
+2025-08-15 14:20:22,043 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,043 - INFO -         MPG: City 14, Highway 17, Combined 15
+2025-08-15 14:20:22,043 - INFO -         Consumption: 15.68 L/100km
+2025-08-15 14:20:22,043 - INFO -         Annual Cost: $3200
+2025-08-15 14:20:22,064 - INFO -       Collected: TOYOTA Scion xD 2008
+2025-08-15 14:20:22,064 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,064 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:22,064 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:22,064 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:22,084 - INFO -       Collected: TOYOTA Celica 2008
+2025-08-15 14:20:22,084 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,084 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:22,084 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:22,084 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:22,104 - INFO -       Collected: TOYOTA Paseo 2008
+2025-08-15 14:20:22,104 - INFO -         Fuel: Regular
+2025-08-15 14:20:22,104 - INFO -         MPG: City 21, Highway 31, Combined 25
+2025-08-15 14:20:22,104 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:22,104 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:22,104 - INFO -   Processing year: 2009
+2025-08-15 14:20:22,104 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/TOYOTA/modelyear/2009?format=json
+2025-08-15 14:20:22,665 - INFO - Received 23 results
+2025-08-15 14:20:23,169 - INFO -     Found 23 models for TOYOTA 2009
+2025-08-15 14:20:23,197 - INFO -       Collected: TOYOTA Scion tC 2009
+2025-08-15 14:20:23,197 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,197 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,197 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,197 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,210 - INFO -       Collected: TOYOTA Corolla 2009
+2025-08-15 14:20:23,210 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,210 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,210 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,210 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,223 - INFO -       Collected: TOYOTA Prius 2009
+2025-08-15 14:20:23,223 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,223 - INFO -         MPG: City 48, Highway 45, Combined 46
+2025-08-15 14:20:23,223 - INFO -         Consumption: 5.11 L/100km
+2025-08-15 14:20:23,223 - INFO -         Annual Cost: $1050
+2025-08-15 14:20:23,244 - INFO -       Collected: TOYOTA Scion xB 2009
+2025-08-15 14:20:23,244 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,244 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,244 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,244 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,256 - INFO -       Collected: TOYOTA Land Cruiser 2009
+2025-08-15 14:20:23,256 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,256 - INFO -         MPG: City 13, Highway 18, Combined 15
+2025-08-15 14:20:23,256 - INFO -         Consumption: 15.68 L/100km
+2025-08-15 14:20:23,256 - INFO -         Annual Cost: $3200
+2025-08-15 14:20:23,268 - INFO -       Collected: TOYOTA Highlander 2009
+2025-08-15 14:20:23,268 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,268 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:23,268 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:23,268 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:23,285 - INFO -       Collected: TOYOTA 4-Runner 2009
+2025-08-15 14:20:23,285 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,285 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,285 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,285 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,298 - INFO -       Collected: TOYOTA RAV4 2009
+2025-08-15 14:20:23,298 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,298 - INFO -         MPG: City 19, Highway 27, Combined 22
+2025-08-15 14:20:23,298 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:23,298 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:23,312 - INFO -       Collected: TOYOTA Tacoma 2009
+2025-08-15 14:20:23,312 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,312 - INFO -         MPG: City 20, Highway 26, Combined 22
+2025-08-15 14:20:23,312 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:23,312 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:23,324 - INFO -       Collected: TOYOTA FJ Cruiser 2009
+2025-08-15 14:20:23,324 - INFO -         Fuel: Premium
+2025-08-15 14:20:23,324 - INFO -         MPG: City 17, Highway 21, Combined 18
+2025-08-15 14:20:23,324 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:23,324 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:23,337 - INFO -       Collected: TOYOTA Yaris 2009
+2025-08-15 14:20:23,337 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,337 - INFO -         MPG: City 29, Highway 36, Combined 32
+2025-08-15 14:20:23,337 - INFO -         Consumption: 7.35 L/100km
+2025-08-15 14:20:23,337 - INFO -         Annual Cost: $1500
+2025-08-15 14:20:23,350 - INFO -       Collected: TOYOTA Avalon 2009
+2025-08-15 14:20:23,350 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,350 - INFO -         MPG: City 19, Highway 28, Combined 23
+2025-08-15 14:20:23,350 - INFO -         Consumption: 10.23 L/100km
+2025-08-15 14:20:23,351 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:23,369 - INFO -       Collected: TOYOTA Corolla Matrix 2009
+2025-08-15 14:20:23,369 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,369 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,369 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,369 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,382 - INFO -       Collected: TOYOTA Tundra 2009
+2025-08-15 14:20:23,382 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,382 - INFO -         MPG: City 15, Highway 19, Combined 16
+2025-08-15 14:20:23,382 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:23,382 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:23,396 - INFO -       Collected: TOYOTA Sienna 2009
+2025-08-15 14:20:23,396 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,396 - INFO -         MPG: City 17, Highway 23, Combined 19
+2025-08-15 14:20:23,396 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:23,396 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:23,409 - INFO -       Collected: TOYOTA Camry 2009
+2025-08-15 14:20:23,409 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,409 - INFO -         MPG: City 19, Highway 28, Combined 23
+2025-08-15 14:20:23,409 - INFO -         Consumption: 10.23 L/100km
+2025-08-15 14:20:23,409 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:23,428 - INFO -       Collected: TOYOTA Camry Solara 2009
+2025-08-15 14:20:23,428 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,428 - INFO -         MPG: City 19, Highway 28, Combined 23
+2025-08-15 14:20:23,428 - INFO -         Consumption: 10.23 L/100km
+2025-08-15 14:20:23,428 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:23,441 - INFO -       Collected: TOYOTA Sequoia 2009
+2025-08-15 14:20:23,442 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,442 - INFO -         MPG: City 14, Highway 17, Combined 15
+2025-08-15 14:20:23,442 - INFO -         Consumption: 15.68 L/100km
+2025-08-15 14:20:23,442 - INFO -         Annual Cost: $3200
+2025-08-15 14:20:23,462 - INFO -       Collected: TOYOTA Scion xD 2009
+2025-08-15 14:20:23,462 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,462 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,462 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,462 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,475 - INFO -       Collected: TOYOTA Venza 2009
+2025-08-15 14:20:23,475 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,475 - INFO -         MPG: City 19, Highway 26, Combined 22
+2025-08-15 14:20:23,476 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:23,476 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:23,494 - INFO -       Collected: TOYOTA FCHV-adv 2009
+2025-08-15 14:20:23,494 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,494 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,494 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,494 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,514 - INFO -       Collected: TOYOTA Celica 2009
+2025-08-15 14:20:23,514 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,514 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,514 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,514 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,534 - INFO -       Collected: TOYOTA Paseo 2009
+2025-08-15 14:20:23,534 - INFO -         Fuel: Regular
+2025-08-15 14:20:23,534 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:23,534 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:23,534 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:23,534 - INFO - Processing make: MERCEDES-BENZ (ID: 449)
+2025-08-15 14:20:23,534 - INFO -   Processing year: 2008
+2025-08-15 14:20:23,534 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/MERCEDES-BENZ/modelyear/2008?format=json
+2025-08-15 14:20:24,208 - INFO - Received 25 results
+2025-08-15 14:20:24,712 - INFO -     Found 25 models for MERCEDES-BENZ 2008
+2025-08-15 14:20:24,738 - INFO -       Collected: MERCEDES-BENZ SL-Class 2008
+2025-08-15 14:20:24,738 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,738 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,738 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,739 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,757 - INFO -       Collected: MERCEDES-BENZ SLK-Class 2008
+2025-08-15 14:20:24,757 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,757 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,757 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,757 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,776 - INFO -       Collected: MERCEDES-BENZ E-Class 2008
+2025-08-15 14:20:24,776 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,776 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,776 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,776 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,793 - INFO -       Collected: MERCEDES-BENZ CLS-Class 2008
+2025-08-15 14:20:24,793 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,793 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,793 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,793 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,812 - INFO -       Collected: MERCEDES-BENZ C-Class 2008
+2025-08-15 14:20:24,812 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,812 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,812 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,812 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,832 - INFO -       Collected: MERCEDES-BENZ S-Class 2008
+2025-08-15 14:20:24,832 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,832 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,832 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,832 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,850 - INFO -       Collected: MERCEDES-BENZ M-Class 2008
+2025-08-15 14:20:24,850 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,850 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,850 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,850 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,868 - INFO -       Collected: MERCEDES-BENZ GL-Class 2008
+2025-08-15 14:20:24,868 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,868 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,868 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,868 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,886 - INFO -       Collected: MERCEDES-BENZ G-Class 2008
+2025-08-15 14:20:24,886 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,886 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,886 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,886 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,904 - INFO -       Collected: MERCEDES-BENZ CL-Class 2008
+2025-08-15 14:20:24,904 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,904 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,904 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,904 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,922 - INFO -       Collected: MERCEDES-BENZ CLK-Class 2008
+2025-08-15 14:20:24,922 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,922 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,922 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,922 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,941 - INFO -       Collected: MERCEDES-BENZ SLR McLaren 2008
+2025-08-15 14:20:24,941 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,941 - INFO -         MPG: City 12, Highway 16, Combined 13
+2025-08-15 14:20:24,941 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:24,941 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:24,960 - INFO -       Collected: MERCEDES-BENZ R-Class 2008
+2025-08-15 14:20:24,960 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,960 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,960 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,960 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,979 - INFO -       Collected: MERCEDES-BENZ L1013 2008
+2025-08-15 14:20:24,979 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,979 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,979 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,979 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:24,998 - INFO -       Collected: MERCEDES-BENZ L1113 2008
+2025-08-15 14:20:24,998 - INFO -         Fuel: Premium
+2025-08-15 14:20:24,998 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:24,998 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:24,998 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,017 - INFO -       Collected: MERCEDES-BENZ L1116 2008
+2025-08-15 14:20:25,017 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,017 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,017 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,017 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,036 - INFO -       Collected: MERCEDES-BENZ L1316 2008
+2025-08-15 14:20:25,036 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,036 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,036 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,036 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,055 - INFO -       Collected: MERCEDES-BENZ L1418 2008
+2025-08-15 14:20:25,055 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,055 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,055 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,055 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,074 - INFO -       Collected: MERCEDES-BENZ L1117 2008
+2025-08-15 14:20:25,074 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,074 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,074 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,074 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,093 - INFO -       Collected: MERCEDES-BENZ L1317 2008
+2025-08-15 14:20:25,093 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,093 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,093 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,093 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,112 - INFO -       Collected: MERCEDES-BENZ L1419 2008
+2025-08-15 14:20:25,112 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,112 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,112 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,112 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,131 - INFO -       Collected: MERCEDES-BENZ LP1419 2008
+2025-08-15 14:20:25,131 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,131 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,131 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,131 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,149 - INFO -       Collected: MERCEDES-BENZ LPS1525 2008
+2025-08-15 14:20:25,149 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,149 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,149 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,149 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,168 - INFO -       Collected: MERCEDES-BENZ LP1219 2008
+2025-08-15 14:20:25,168 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,168 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,168 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,168 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,187 - INFO -       Collected: MERCEDES-BENZ L1319 2008
+2025-08-15 14:20:25,187 - INFO -         Fuel: Premium
+2025-08-15 14:20:25,187 - INFO -         MPG: City 11, Highway 18, Combined 14
+2025-08-15 14:20:25,187 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:25,187 - INFO -         Annual Cost: $4400
+2025-08-15 14:20:25,187 - INFO -   Processing year: 2009
+2025-08-15 14:20:25,187 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/MERCEDES-BENZ/modelyear/2009?format=json
+2025-08-15 14:20:25,762 - INFO - Received 25 results
+2025-08-15 14:20:26,267 - INFO -     Found 25 models for MERCEDES-BENZ 2009
+2025-08-15 14:20:26,293 - INFO -       Collected: MERCEDES-BENZ SL-Class 2009
+2025-08-15 14:20:26,293 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,293 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,293 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,293 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,311 - INFO -       Collected: MERCEDES-BENZ SLK-Class 2009
+2025-08-15 14:20:26,311 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,311 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,311 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,311 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,329 - INFO -       Collected: MERCEDES-BENZ E-Class 2009
+2025-08-15 14:20:26,329 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,329 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,329 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,329 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,346 - INFO -       Collected: MERCEDES-BENZ CLS-Class 2009
+2025-08-15 14:20:26,346 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,346 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,346 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,346 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,365 - INFO -       Collected: MERCEDES-BENZ C-Class 2009
+2025-08-15 14:20:26,365 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,365 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,365 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,365 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,384 - INFO -       Collected: MERCEDES-BENZ S-Class 2009
+2025-08-15 14:20:26,384 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,384 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,384 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,384 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,402 - INFO -       Collected: MERCEDES-BENZ M-Class 2009
+2025-08-15 14:20:26,402 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,402 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,402 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,402 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,420 - INFO -       Collected: MERCEDES-BENZ GL-Class 2009
+2025-08-15 14:20:26,420 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,420 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,420 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,420 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,438 - INFO -       Collected: MERCEDES-BENZ G-Class 2009
+2025-08-15 14:20:26,438 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,438 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,438 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,438 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,456 - INFO -       Collected: MERCEDES-BENZ CL-Class 2009
+2025-08-15 14:20:26,456 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,456 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,456 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,456 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,473 - INFO -       Collected: MERCEDES-BENZ CLK-Class 2009
+2025-08-15 14:20:26,473 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,473 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,473 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,473 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,493 - INFO -       Collected: MERCEDES-BENZ SLR McLaren 2009
+2025-08-15 14:20:26,493 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,493 - INFO -         MPG: City 12, Highway 16, Combined 13
+2025-08-15 14:20:26,493 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:26,493 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:26,511 - INFO -       Collected: MERCEDES-BENZ R-Class 2009
+2025-08-15 14:20:26,511 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,511 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,511 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,511 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,530 - INFO -       Collected: MERCEDES-BENZ L1013 2009
+2025-08-15 14:20:26,530 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,530 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,530 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,530 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,549 - INFO -       Collected: MERCEDES-BENZ L1113 2009
+2025-08-15 14:20:26,549 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,549 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,549 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,549 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,568 - INFO -       Collected: MERCEDES-BENZ L1116 2009
+2025-08-15 14:20:26,568 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,568 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,568 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,568 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,587 - INFO -       Collected: MERCEDES-BENZ L1316 2009
+2025-08-15 14:20:26,587 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,587 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,587 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,587 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,607 - INFO -       Collected: MERCEDES-BENZ L1418 2009
+2025-08-15 14:20:26,607 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,607 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,607 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,607 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,627 - INFO -       Collected: MERCEDES-BENZ L1117 2009
+2025-08-15 14:20:26,627 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,627 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,627 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,627 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,646 - INFO -       Collected: MERCEDES-BENZ L1317 2009
+2025-08-15 14:20:26,646 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,646 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,646 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,646 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,665 - INFO -       Collected: MERCEDES-BENZ L1419 2009
+2025-08-15 14:20:26,665 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,665 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,665 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,665 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,697 - INFO -       Collected: MERCEDES-BENZ LP1419 2009
+2025-08-15 14:20:26,697 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,697 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,697 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,697 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,717 - INFO -       Collected: MERCEDES-BENZ LPS1525 2009
+2025-08-15 14:20:26,717 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,718 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,718 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,718 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,737 - INFO -       Collected: MERCEDES-BENZ LP1219 2009
+2025-08-15 14:20:26,737 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,737 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,737 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,737 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,756 - INFO -       Collected: MERCEDES-BENZ L1319 2009
+2025-08-15 14:20:26,756 - INFO -         Fuel: Premium
+2025-08-15 14:20:26,756 - INFO -         MPG: City 13, Highway 21, Combined 16
+2025-08-15 14:20:26,756 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:26,756 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:26,756 - INFO - Processing make: BMW (ID: 452)
+2025-08-15 14:20:26,756 - INFO -   Processing year: 2008
+2025-08-15 14:20:26,756 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2008?format=json
+2025-08-15 14:20:27,280 - INFO - Received 53 results
+2025-08-15 14:20:27,785 - INFO -     Found 53 models for BMW 2008
+2025-08-15 14:20:27,798 - INFO -       Collected: BMW 128i 2008
+2025-08-15 14:20:27,798 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,798 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:27,798 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:27,798 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:27,811 - INFO -       Collected: BMW 135i 2008
+2025-08-15 14:20:27,811 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,811 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:27,811 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:27,811 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:27,823 - INFO -       Collected: BMW 328i 2008
+2025-08-15 14:20:27,823 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,823 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:27,823 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:27,823 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:27,838 - INFO -       Collected: BMW M3 2008
+2025-08-15 14:20:27,838 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,838 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:27,838 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:27,838 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:27,850 - INFO -       Collected: BMW 335i 2008
+2025-08-15 14:20:27,850 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,850 - INFO -         MPG: City 17, Highway 26, Combined 20
+2025-08-15 14:20:27,850 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:27,850 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:27,865 - INFO -       Collected: BMW X6 2008
+2025-08-15 14:20:27,865 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,865 - INFO -         MPG: City 15, Highway 20, Combined 17
+2025-08-15 14:20:27,865 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:27,865 - INFO -         Annual Cost: $3650
+2025-08-15 14:20:27,877 - INFO -       Collected: BMW 528i 2008
+2025-08-15 14:20:27,877 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,877 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:27,877 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:27,877 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:27,888 - INFO -       Collected: BMW 535i 2008
+2025-08-15 14:20:27,888 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,888 - INFO -         MPG: City 17, Highway 26, Combined 20
+2025-08-15 14:20:27,888 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:27,888 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:27,903 - INFO -       Collected: BMW X5 2008
+2025-08-15 14:20:27,903 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,903 - INFO -         MPG: City 15, Highway 21, Combined 18
+2025-08-15 14:20:27,903 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:27,903 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:27,914 - INFO -       Collected: BMW 550i 2008
+2025-08-15 14:20:27,914 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,914 - INFO -         MPG: City 15, Highway 22, Combined 18
+2025-08-15 14:20:27,914 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:27,914 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:27,929 - INFO -       Collected: BMW X3 2008
+2025-08-15 14:20:27,929 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,929 - INFO -         MPG: City 16, Highway 23, Combined 19
+2025-08-15 14:20:27,929 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:27,929 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:27,941 - INFO -       Collected: BMW 750i 2008
+2025-08-15 14:20:27,941 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,941 - INFO -         MPG: City 15, Highway 23, Combined 18
+2025-08-15 14:20:27,941 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:27,941 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:27,952 - INFO -       Collected: BMW 750Li 2008
+2025-08-15 14:20:27,952 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,952 - INFO -         MPG: City 15, Highway 23, Combined 18
+2025-08-15 14:20:27,952 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:27,952 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:27,964 - INFO -       Collected: BMW 760Li 2008
+2025-08-15 14:20:27,964 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,964 - INFO -         MPG: City 13, Highway 20, Combined 15
+2025-08-15 14:20:27,964 - INFO -         Consumption: 15.68 L/100km
+2025-08-15 14:20:27,964 - INFO -         Annual Cost: $4150
+2025-08-15 14:20:27,978 - INFO -       Collected: BMW Z4 2008
+2025-08-15 14:20:27,979 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,979 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:27,979 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:27,979 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:27,993 - INFO -       Collected: BMW M6 2008
+2025-08-15 14:20:27,993 - INFO -         Fuel: Premium
+2025-08-15 14:20:27,993 - INFO -         MPG: City 11, Highway 17, Combined 13
+2025-08-15 14:20:27,993 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:27,993 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:28,005 - INFO -       Collected: BMW 528xi 2008
+2025-08-15 14:20:28,005 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,005 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:28,005 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:28,005 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:28,022 - INFO -       Collected: BMW 650i 2008
+2025-08-15 14:20:28,022 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,022 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,022 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,022 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,043 - INFO -       Collected: BMW G 450 X 2008
+2025-08-15 14:20:28,043 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,043 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,043 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,043 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,064 - INFO -       Collected: BMW F 800 S 2008
+2025-08-15 14:20:28,064 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,064 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,064 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,064 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,085 - INFO -       Collected: BMW F 800 ST 2008
+2025-08-15 14:20:28,085 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,085 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,085 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,085 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,106 - INFO -       Collected: BMW F 800 GS 2008
+2025-08-15 14:20:28,106 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,106 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,106 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,106 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,127 - INFO -       Collected: BMW F 800 R 2008
+2025-08-15 14:20:28,127 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,127 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,127 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,127 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,148 - INFO -       Collected: BMW HP2 2008
+2025-08-15 14:20:28,149 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,149 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,149 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,149 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,170 - INFO -       Collected: BMW S 1000 RR 2008
+2025-08-15 14:20:28,170 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,170 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,170 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,170 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,190 - INFO -       Collected: BMW R 1200 GS 2008
+2025-08-15 14:20:28,190 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,190 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,190 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,190 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,211 - INFO -       Collected: BMW R 1200 R 2008
+2025-08-15 14:20:28,211 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,211 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,211 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,211 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,231 - INFO -       Collected: BMW R 1200 RT 2008
+2025-08-15 14:20:28,231 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,231 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,231 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,231 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,252 - INFO -       Collected: BMW K 1300 S 2008
+2025-08-15 14:20:28,252 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,252 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,252 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,252 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,272 - INFO -       Collected: BMW K 1300 GT 2008
+2025-08-15 14:20:28,272 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,272 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,272 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,272 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,293 - INFO -       Collected: BMW K 1300 R 2008
+2025-08-15 14:20:28,293 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,293 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,293 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,293 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,314 - INFO -       Collected: BMW F 650 GS 2008
+2025-08-15 14:20:28,314 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,314 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,314 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,314 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,334 - INFO -       Collected: BMW G 650 GS 2008
+2025-08-15 14:20:28,334 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,334 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,334 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,334 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,354 - INFO -       Collected: BMW R 900 RT 2008
+2025-08-15 14:20:28,354 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,354 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,354 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,355 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,375 - INFO -       Collected: BMW K 1600 GT 2008
+2025-08-15 14:20:28,375 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,375 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,375 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,375 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,395 - INFO -       Collected: BMW K 1600 GTL 2008
+2025-08-15 14:20:28,395 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,395 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,395 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,395 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,417 - INFO -       Collected: BMW F 700 GS 2008
+2025-08-15 14:20:28,417 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,417 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,417 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,417 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,437 - INFO -       Collected: BMW F 800 GT 2008
+2025-08-15 14:20:28,437 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,437 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,437 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,437 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,458 - INFO -       Collected: BMW C 600 2008
+2025-08-15 14:20:28,458 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,458 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,458 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,458 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,478 - INFO -       Collected: BMW C 650 GT 2008
+2025-08-15 14:20:28,478 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,479 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,479 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,479 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,500 - INFO -       Collected: BMW HP4 2008
+2025-08-15 14:20:28,500 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,500 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,500 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,500 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,521 - INFO -       Collected: BMW S 1000 R 2008
+2025-08-15 14:20:28,522 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,522 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,522 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,522 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,542 - INFO -       Collected: BMW R nineT 2008
+2025-08-15 14:20:28,542 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,542 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,542 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,542 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,556 - INFO -       Collected: BMW M5 2008
+2025-08-15 14:20:28,556 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,556 - INFO -         MPG: City 11, Highway 17, Combined 13
+2025-08-15 14:20:28,556 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:28,556 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:28,576 - INFO -       Collected: BMW R 1200 S 2008
+2025-08-15 14:20:28,576 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,576 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,576 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,576 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,597 - INFO -       Collected: BMW K 1200 R 2008
+2025-08-15 14:20:28,597 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,597 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,597 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,597 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,617 - INFO -       Collected: BMW K 1200 S 2008
+2025-08-15 14:20:28,617 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,617 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,617 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,617 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,637 - INFO -       Collected: BMW K 1200 LT 2008
+2025-08-15 14:20:28,637 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,637 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,637 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,637 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,657 - INFO -       Collected: BMW K 1200 GT 2008
+2025-08-15 14:20:28,658 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,658 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:28,658 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:28,658 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:28,669 - INFO -       Collected: BMW 535xi 2008
+2025-08-15 14:20:28,669 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,669 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:28,669 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:28,669 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:28,681 - INFO -       Collected: BMW 328xi 2008
+2025-08-15 14:20:28,681 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,681 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:28,681 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:28,681 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:28,693 - INFO -       Collected: BMW 335xi 2008
+2025-08-15 14:20:28,693 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,693 - INFO -         MPG: City 16, Highway 25, Combined 19
+2025-08-15 14:20:28,693 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,693 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,714 - INFO -       Collected: BMW G 650 2008
+2025-08-15 14:20:28,714 - INFO -         Fuel: Premium
+2025-08-15 14:20:28,714 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:28,714 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:28,714 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:28,714 - INFO -   Processing year: 2009
+2025-08-15 14:20:28,714 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/BMW/modelyear/2009?format=json
+2025-08-15 14:20:29,279 - INFO - Received 45 results
+2025-08-15 14:20:29,781 - INFO -     Found 45 models for BMW 2009
+2025-08-15 14:20:29,800 - INFO -       Collected: BMW 128i 2009
+2025-08-15 14:20:29,800 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,800 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:29,800 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:29,800 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:29,812 - INFO -       Collected: BMW 135i 2009
+2025-08-15 14:20:29,812 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,812 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:29,812 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:29,812 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:29,824 - INFO -       Collected: BMW 328i 2009
+2025-08-15 14:20:29,824 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,824 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:29,824 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:29,824 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:29,839 - INFO -       Collected: BMW M3 2009
+2025-08-15 14:20:29,839 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,839 - INFO -         MPG: City 13, Highway 20, Combined 16
+2025-08-15 14:20:29,839 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:29,839 - INFO -         Annual Cost: $3850
+2025-08-15 14:20:29,851 - INFO -       Collected: BMW 335i 2009
+2025-08-15 14:20:29,851 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,851 - INFO -         MPG: City 17, Highway 26, Combined 20
+2025-08-15 14:20:29,851 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:29,851 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:29,862 - INFO -       Collected: BMW 335d 2009
+2025-08-15 14:20:29,863 - INFO -         Fuel: Diesel
+2025-08-15 14:20:29,863 - INFO -         MPG: City 23, Highway 36, Combined 27
+2025-08-15 14:20:29,863 - INFO -         Consumption: 8.71 L/100km
+2025-08-15 14:20:29,863 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:29,877 - INFO -       Collected: BMW X6 2009
+2025-08-15 14:20:29,877 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,877 - INFO -         MPG: City 15, Highway 20, Combined 17
+2025-08-15 14:20:29,877 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:29,877 - INFO -         Annual Cost: $3650
+2025-08-15 14:20:29,888 - INFO -       Collected: BMW 528i 2009
+2025-08-15 14:20:29,888 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,888 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:29,888 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:29,888 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:29,900 - INFO -       Collected: BMW 535i 2009
+2025-08-15 14:20:29,900 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,900 - INFO -         MPG: City 17, Highway 26, Combined 20
+2025-08-15 14:20:29,900 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:29,900 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:29,914 - INFO -       Collected: BMW X5 2009
+2025-08-15 14:20:29,914 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,914 - INFO -         MPG: City 15, Highway 21, Combined 18
+2025-08-15 14:20:29,914 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:29,914 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:29,926 - INFO -       Collected: BMW 550i 2009
+2025-08-15 14:20:29,926 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,926 - INFO -         MPG: City 15, Highway 22, Combined 18
+2025-08-15 14:20:29,926 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:29,926 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:29,940 - INFO -       Collected: BMW X3 2009
+2025-08-15 14:20:29,940 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,940 - INFO -         MPG: City 16, Highway 23, Combined 19
+2025-08-15 14:20:29,940 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:29,940 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:29,952 - INFO -       Collected: BMW 750i 2009
+2025-08-15 14:20:29,952 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,952 - INFO -         MPG: City 15, Highway 22, Combined 17
+2025-08-15 14:20:29,952 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:29,952 - INFO -         Annual Cost: $3650
+2025-08-15 14:20:29,964 - INFO -       Collected: BMW 750Li 2009
+2025-08-15 14:20:29,964 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,964 - INFO -         MPG: City 14, Highway 21, Combined 17
+2025-08-15 14:20:29,964 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:29,964 - INFO -         Annual Cost: $3650
+2025-08-15 14:20:29,978 - INFO -       Collected: BMW Z4 2009
+2025-08-15 14:20:29,978 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,978 - INFO -         MPG: City 19, Highway 28, Combined 22
+2025-08-15 14:20:29,978 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:29,978 - INFO -         Annual Cost: $2800
+2025-08-15 14:20:29,992 - INFO -       Collected: BMW M6 2009
+2025-08-15 14:20:29,992 - INFO -         Fuel: Premium
+2025-08-15 14:20:29,992 - INFO -         MPG: City 11, Highway 17, Combined 13
+2025-08-15 14:20:29,992 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:29,992 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:30,008 - INFO -       Collected: BMW 650i 2009
+2025-08-15 14:20:30,008 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,008 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,008 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,008 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,029 - INFO -       Collected: BMW G 450 X 2009
+2025-08-15 14:20:30,029 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,029 - INFO -         MPG: City 17, Highway 27, Combined 20
+2025-08-15 14:20:30,029 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:30,029 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:30,050 - INFO -       Collected: BMW F 800 S 2009
+2025-08-15 14:20:30,050 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,050 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,050 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,050 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,071 - INFO -       Collected: BMW F 800 ST 2009
+2025-08-15 14:20:30,071 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,071 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,071 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,071 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,091 - INFO -       Collected: BMW F 800 GS 2009
+2025-08-15 14:20:30,091 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,091 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,091 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,091 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,112 - INFO -       Collected: BMW F 800 R 2009
+2025-08-15 14:20:30,112 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,112 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,112 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,112 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,133 - INFO -       Collected: BMW HP2 2009
+2025-08-15 14:20:30,133 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,133 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,133 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,133 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,155 - INFO -       Collected: BMW S 1000 RR 2009
+2025-08-15 14:20:30,155 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,155 - INFO -         MPG: City 17, Highway 27, Combined 20
+2025-08-15 14:20:30,155 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:30,155 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:30,175 - INFO -       Collected: BMW R 1200 GS 2009
+2025-08-15 14:20:30,175 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,175 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,175 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,175 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,195 - INFO -       Collected: BMW R 1200 R 2009
+2025-08-15 14:20:30,195 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,195 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,195 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,195 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,215 - INFO -       Collected: BMW R 1200 RT 2009
+2025-08-15 14:20:30,215 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,215 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,215 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,215 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,236 - INFO -       Collected: BMW K 1300 S 2009
+2025-08-15 14:20:30,236 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,236 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,236 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,236 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,256 - INFO -       Collected: BMW K 1300 GT 2009
+2025-08-15 14:20:30,256 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,256 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,256 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,256 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,276 - INFO -       Collected: BMW K 1300 R 2009
+2025-08-15 14:20:30,276 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,276 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,277 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,277 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,297 - INFO -       Collected: BMW F 650 GS 2009
+2025-08-15 14:20:30,297 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,297 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,297 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,297 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,317 - INFO -       Collected: BMW G 650 GS 2009
+2025-08-15 14:20:30,317 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,317 - INFO -         MPG: City 17, Highway 27, Combined 20
+2025-08-15 14:20:30,317 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:30,317 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:30,338 - INFO -       Collected: BMW R 900 RT 2009
+2025-08-15 14:20:30,338 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,338 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,338 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,338 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,358 - INFO -       Collected: BMW K 1600 GT 2009
+2025-08-15 14:20:30,358 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,358 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,358 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,358 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,378 - INFO -       Collected: BMW K 1600 GTL 2009
+2025-08-15 14:20:30,378 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,378 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,378 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,378 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,399 - INFO -       Collected: BMW F 700 GS 2009
+2025-08-15 14:20:30,399 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,399 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,399 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,399 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,420 - INFO -       Collected: BMW F 800 GT 2009
+2025-08-15 14:20:30,420 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,420 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,420 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,420 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,440 - INFO -       Collected: BMW C 600 2009
+2025-08-15 14:20:30,440 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,440 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,440 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,440 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,461 - INFO -       Collected: BMW C 650 GT 2009
+2025-08-15 14:20:30,461 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,461 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,461 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,461 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,482 - INFO -       Collected: BMW HP4 2009
+2025-08-15 14:20:30,482 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,482 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,482 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,482 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,504 - INFO -       Collected: BMW S 1000 R 2009
+2025-08-15 14:20:30,504 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,504 - INFO -         MPG: City 17, Highway 27, Combined 20
+2025-08-15 14:20:30,504 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:30,504 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:30,524 - INFO -       Collected: BMW R nineT 2009
+2025-08-15 14:20:30,524 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,524 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,524 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,524 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,538 - INFO -       Collected: BMW M5 2009
+2025-08-15 14:20:30,538 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,538 - INFO -         MPG: City 11, Highway 17, Combined 13
+2025-08-15 14:20:30,538 - INFO -         Consumption: 18.09 L/100km
+2025-08-15 14:20:30,538 - INFO -         Annual Cost: $4750
+2025-08-15 14:20:30,558 - INFO -       Collected: BMW K 1200 LT 2009
+2025-08-15 14:20:30,558 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,559 - INFO -         MPG: City 18, Highway 28, Combined 21
+2025-08-15 14:20:30,559 - INFO -         Consumption: 11.2 L/100km
+2025-08-15 14:20:30,559 - INFO -         Annual Cost: $2950
+2025-08-15 14:20:30,580 - INFO -       Collected: BMW G 650 2009
+2025-08-15 14:20:30,580 - INFO -         Fuel: Premium
+2025-08-15 14:20:30,580 - INFO -         MPG: City 17, Highway 27, Combined 20
+2025-08-15 14:20:30,580 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:30,580 - INFO -         Annual Cost: $3100
+2025-08-15 14:20:30,580 - INFO - Processing make: FORD (ID: 460)
+2025-08-15 14:20:30,580 - INFO -   Processing year: 2008
+2025-08-15 14:20:30,580 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/FORD/modelyear/2008?format=json
+2025-08-15 14:20:31,232 - INFO - Received 54 results
+2025-08-15 14:20:31,736 - INFO -     Found 54 models for FORD 2008
+2025-08-15 14:20:31,761 - INFO -       Collected: FORD Affordable Aluminum 2008
+2025-08-15 14:20:31,761 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,761 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,761 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,761 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,781 - INFO -       Collected: FORD Travel Park 2008
+2025-08-15 14:20:31,781 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,781 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,781 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,781 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,799 - INFO -       Collected: FORD Bradford Built 2008
+2025-08-15 14:20:31,799 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,799 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,799 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,799 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,817 - INFO -       Collected: FORD CRANFORD RADIATOR INC. 2008
+2025-08-15 14:20:31,817 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,817 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,817 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,817 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,830 - INFO -       Collected: FORD Crown Victoria 2008
+2025-08-15 14:20:31,830 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:31,830 - INFO -         MPG: City 15, Highway 23, Combined 18
+2025-08-15 14:20:31,830 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:31,830 - INFO -         Annual Cost: $2700
+2025-08-15 14:20:31,830 - INFO -       Collected: FORD Crown Victoria 2008
+2025-08-15 14:20:31,830 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:31,830 - INFO -         MPG: City 15, Highway 23, Combined 18
+2025-08-15 14:20:31,830 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:31,830 - INFO -         Annual Cost: $2700
+2025-08-15 14:20:31,844 - INFO -       Collected: FORD Focus 2008
+2025-08-15 14:20:31,844 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,844 - INFO -         MPG: City 24, Highway 33, Combined 28
+2025-08-15 14:20:31,844 - INFO -         Consumption: 8.4 L/100km
+2025-08-15 14:20:31,844 - INFO -         Annual Cost: $1700
+2025-08-15 14:20:31,857 - INFO -       Collected: FORD Fusion 2008
+2025-08-15 14:20:31,857 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,857 - INFO -         MPG: City 20, Highway 28, Combined 23
+2025-08-15 14:20:31,857 - INFO -         Consumption: 10.23 L/100km
+2025-08-15 14:20:31,857 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:31,870 - INFO -       Collected: FORD Mustang 2008
+2025-08-15 14:20:31,870 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,870 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:31,870 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,870 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,884 - INFO -       Collected: FORD Taurus 2008
+2025-08-15 14:20:31,884 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,884 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,884 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,884 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,905 - INFO -       Collected: FORD E-150 2008
+2025-08-15 14:20:31,905 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,905 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,905 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,905 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,905 - INFO -       Collected: FORD E-150 2008
+2025-08-15 14:20:31,905 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,905 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,905 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,905 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,905 - INFO -       Collected: FORD E-150 2008
+2025-08-15 14:20:31,905 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,905 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,905 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,905 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,919 - INFO -       Collected: FORD Edge 2008
+2025-08-15 14:20:31,919 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,920 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:31,920 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,920 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,933 - INFO -       Collected: FORD Escape 2008
+2025-08-15 14:20:31,934 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,934 - INFO -         MPG: City 20, Highway 26, Combined 22
+2025-08-15 14:20:31,934 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:31,934 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:31,946 - INFO -       Collected: FORD Expedition 2008
+2025-08-15 14:20:31,946 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,946 - INFO -         MPG: City 12, Highway 18, Combined 14
+2025-08-15 14:20:31,946 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:31,946 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:31,960 - INFO -       Collected: FORD Explorer 2008
+2025-08-15 14:20:31,960 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,960 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:31,960 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:31,960 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:31,980 - INFO -       Collected: FORD F-150 2008
+2025-08-15 14:20:31,980 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,981 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,981 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,981 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,981 - INFO -       Collected: FORD F-150 2008
+2025-08-15 14:20:31,981 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,981 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:31,981 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:31,981 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:31,995 - INFO -       Collected: FORD Ranger 2008
+2025-08-15 14:20:31,995 - INFO -         Fuel: Regular
+2025-08-15 14:20:31,995 - INFO -         MPG: City 15, Highway 20, Combined 17
+2025-08-15 14:20:31,995 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:31,995 - INFO -         Annual Cost: $2850
+2025-08-15 14:20:32,006 - INFO -       Collected: FORD Explorer Sport Trac 2008
+2025-08-15 14:20:32,006 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,006 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:32,006 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:32,006 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:32,026 - INFO -       Collected: FORD F-250 2008
+2025-08-15 14:20:32,026 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,026 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,026 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,026 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,026 - INFO -       Collected: FORD F-250 2008
+2025-08-15 14:20:32,026 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,026 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,026 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,027 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,047 - INFO -       Collected: FORD F-350 2008
+2025-08-15 14:20:32,047 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,047 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,047 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,047 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,047 - INFO -       Collected: FORD F-350 2008
+2025-08-15 14:20:32,047 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,047 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,047 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,047 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,067 - INFO -       Collected: FORD F-450 2008
+2025-08-15 14:20:32,067 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,067 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,067 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,067 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,067 - INFO -       Collected: FORD F-450 2008
+2025-08-15 14:20:32,067 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,067 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,067 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,067 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,087 - INFO -       Collected: FORD F-550 2008
+2025-08-15 14:20:32,087 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,087 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,088 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,088 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,088 - INFO -       Collected: FORD F-550 2008
+2025-08-15 14:20:32,088 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,088 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,088 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,088 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,108 - INFO -       Collected: FORD F-650 2008
+2025-08-15 14:20:32,108 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,108 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,108 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,108 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,108 - INFO -       Collected: FORD F-650 2008
+2025-08-15 14:20:32,108 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,108 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,108 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,108 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,128 - INFO -       Collected: FORD F-750 2008
+2025-08-15 14:20:32,128 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,128 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,128 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,128 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,128 - INFO -       Collected: FORD F-750 2008
+2025-08-15 14:20:32,128 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,128 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,128 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,128 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,150 - INFO -       Collected: FORD E-250 2008
+2025-08-15 14:20:32,150 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,150 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,150 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,150 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,150 - INFO -       Collected: FORD E-250 2008
+2025-08-15 14:20:32,150 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,150 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,150 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,150 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,150 - INFO -       Collected: FORD E-250 2008
+2025-08-15 14:20:32,150 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,150 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,150 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,150 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,171 - INFO -       Collected: FORD E-350 2008
+2025-08-15 14:20:32,171 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,171 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,171 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,171 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,171 - INFO -       Collected: FORD E-350 2008
+2025-08-15 14:20:32,171 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,171 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,171 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,171 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,171 - INFO -       Collected: FORD E-350 2008
+2025-08-15 14:20:32,171 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,171 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,171 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,171 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,171 - INFO -       Collected: FORD E-350 2008
+2025-08-15 14:20:32,171 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,171 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,171 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,171 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,192 - INFO -       Collected: FORD E-450 2008
+2025-08-15 14:20:32,192 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,192 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,192 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,192 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,192 - INFO -       Collected: FORD E-450 2008
+2025-08-15 14:20:32,192 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,192 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,192 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,192 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,192 - INFO -       Collected: FORD E-450 2008
+2025-08-15 14:20:32,192 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,193 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,193 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,193 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,211 - INFO -       Collected: FORD Expedition MAX 2008
+2025-08-15 14:20:32,211 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,211 - INFO -         MPG: City 12, Highway 18, Combined 14
+2025-08-15 14:20:32,211 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:32,211 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:32,229 - INFO -       Collected: FORD Motorhome Chassis 2008
+2025-08-15 14:20:32,229 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,229 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,229 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,229 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,242 - INFO -       Collected: FORD Taurus X 2008
+2025-08-15 14:20:32,242 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,242 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:32,242 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,242 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,242 - INFO -       Collected: FORD Taurus X 2008
+2025-08-15 14:20:32,242 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,242 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:32,242 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,242 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,262 - INFO -       Collected: FORD Low Cab Forward 2008
+2025-08-15 14:20:32,262 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,262 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,262 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,262 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,278 - INFO -       Collected: FORD '34 2008
+2025-08-15 14:20:32,278 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,278 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,278 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,278 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,297 - INFO -       Collected: FORD Medford Steel 2008
+2025-08-15 14:20:32,297 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,297 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,297 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,297 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,315 - INFO -       Collected: FORD Milford Welding & Manufacturing Inc. 2008
+2025-08-15 14:20:32,315 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,315 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,315 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,315 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,333 - INFO -       Collected: FORD Stafford's Trailers 2008
+2025-08-15 14:20:32,333 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,333 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,333 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,333 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,353 - INFO -       Collected: FORD Swinford Mfg 2008
+2025-08-15 14:20:32,353 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,353 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,353 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,353 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,370 - INFO -       Collected: FORD Waterford Tank and Fabrication, LTD 2008
+2025-08-15 14:20:32,370 - INFO -         Fuel: Regular
+2025-08-15 14:20:32,370 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:32,370 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:32,370 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:32,370 - INFO -   Processing year: 2009
+2025-08-15 14:20:32,370 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/FORD/modelyear/2009?format=json
+2025-08-15 14:20:32,894 - INFO - Received 51 results
+2025-08-15 14:20:33,395 - INFO -     Found 51 models for FORD 2009
+2025-08-15 14:20:33,419 - INFO -       Collected: FORD Affordable Aluminum 2009
+2025-08-15 14:20:33,420 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,420 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,420 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,420 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,439 - INFO -       Collected: FORD Travel Park 2009
+2025-08-15 14:20:33,439 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,439 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,439 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,439 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,457 - INFO -       Collected: FORD Bradford Built 2009
+2025-08-15 14:20:33,458 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,458 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,458 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,458 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,476 - INFO -       Collected: FORD CRANFORD RADIATOR INC. 2009
+2025-08-15 14:20:33,476 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,476 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,476 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,476 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,488 - INFO -       Collected: FORD Crown Victoria 2009
+2025-08-15 14:20:33,488 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:33,488 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:33,488 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,488 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,501 - INFO -       Collected: FORD Focus 2009
+2025-08-15 14:20:33,501 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,501 - INFO -         MPG: City 24, Highway 35, Combined 28
+2025-08-15 14:20:33,501 - INFO -         Consumption: 8.4 L/100km
+2025-08-15 14:20:33,501 - INFO -         Annual Cost: $1700
+2025-08-15 14:20:33,514 - INFO -       Collected: FORD Fusion 2009
+2025-08-15 14:20:33,515 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,515 - INFO -         MPG: City 17, Highway 25, Combined 20
+2025-08-15 14:20:33,515 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:33,515 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:33,537 - INFO -       Collected: FORD Mustang 2009
+2025-08-15 14:20:33,537 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,538 - INFO -         MPG: City 17, Highway 26, Combined 20
+2025-08-15 14:20:33,538 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:33,538 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:33,554 - INFO -       Collected: FORD Taurus 2009
+2025-08-15 14:20:33,554 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,554 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,554 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,554 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,576 - INFO -       Collected: FORD E-150 2009
+2025-08-15 14:20:33,576 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,576 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,576 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,576 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,576 - INFO -       Collected: FORD E-150 2009
+2025-08-15 14:20:33,576 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,576 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,576 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,576 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,576 - INFO -       Collected: FORD E-150 2009
+2025-08-15 14:20:33,576 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,576 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,576 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,576 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,590 - INFO -       Collected: FORD Edge 2009
+2025-08-15 14:20:33,590 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,590 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,590 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,590 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,603 - INFO -       Collected: FORD Escape 2009
+2025-08-15 14:20:33,603 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,603 - INFO -         MPG: City 22, Highway 28, Combined 24
+2025-08-15 14:20:33,603 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:33,603 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:33,616 - INFO -       Collected: FORD Expedition 2009
+2025-08-15 14:20:33,616 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:33,616 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:33,616 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:33,616 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:33,629 - INFO -       Collected: FORD Explorer 2009
+2025-08-15 14:20:33,629 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,629 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:33,629 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:33,629 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:33,650 - INFO -       Collected: FORD F-150 2009
+2025-08-15 14:20:33,650 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,650 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,650 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,650 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,663 - INFO -       Collected: FORD Flex 2009
+2025-08-15 14:20:33,663 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,663 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,664 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,664 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,677 - INFO -       Collected: FORD Ranger 2009
+2025-08-15 14:20:33,677 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,677 - INFO -         MPG: City 21, Highway 26, Combined 23
+2025-08-15 14:20:33,677 - INFO -         Consumption: 10.23 L/100km
+2025-08-15 14:20:33,677 - INFO -         Annual Cost: $2100
+2025-08-15 14:20:33,688 - INFO -       Collected: FORD Explorer Sport Trac 2009
+2025-08-15 14:20:33,688 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,688 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:33,688 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:33,688 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:33,709 - INFO -       Collected: FORD F-250 2009
+2025-08-15 14:20:33,709 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,709 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,709 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,709 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,709 - INFO -       Collected: FORD F-250 2009
+2025-08-15 14:20:33,709 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,709 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,709 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,709 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,729 - INFO -       Collected: FORD F-350 2009
+2025-08-15 14:20:33,729 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,729 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,729 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,729 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,729 - INFO -       Collected: FORD F-350 2009
+2025-08-15 14:20:33,729 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,729 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,729 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,729 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,749 - INFO -       Collected: FORD F-450 2009
+2025-08-15 14:20:33,749 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,749 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,749 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,749 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,749 - INFO -       Collected: FORD F-450 2009
+2025-08-15 14:20:33,749 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,749 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,750 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,750 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,770 - INFO -       Collected: FORD F-550 2009
+2025-08-15 14:20:33,770 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,770 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,770 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,770 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,770 - INFO -       Collected: FORD F-550 2009
+2025-08-15 14:20:33,770 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,770 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,770 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,770 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,790 - INFO -       Collected: FORD F-650 2009
+2025-08-15 14:20:33,790 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,790 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,790 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,790 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,810 - INFO -       Collected: FORD F-750 2009
+2025-08-15 14:20:33,810 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,810 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,810 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,811 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,831 - INFO -       Collected: FORD E-250 2009
+2025-08-15 14:20:33,831 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,831 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,831 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,831 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,831 - INFO -       Collected: FORD E-250 2009
+2025-08-15 14:20:33,831 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,831 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,831 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,831 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,831 - INFO -       Collected: FORD E-250 2009
+2025-08-15 14:20:33,831 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,831 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,831 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,832 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,852 - INFO -       Collected: FORD E-350 2009
+2025-08-15 14:20:33,853 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,853 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,853 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,853 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,853 - INFO -       Collected: FORD E-350 2009
+2025-08-15 14:20:33,853 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,853 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,853 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,853 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,853 - INFO -       Collected: FORD E-350 2009
+2025-08-15 14:20:33,853 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,853 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,853 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,853 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,853 - INFO -       Collected: FORD E-350 2009
+2025-08-15 14:20:33,853 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,853 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,853 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,853 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,873 - INFO -       Collected: FORD E-450 2009
+2025-08-15 14:20:33,873 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,873 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,873 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,873 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,873 - INFO -       Collected: FORD E-450 2009
+2025-08-15 14:20:33,873 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,873 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,873 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,873 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,874 - INFO -       Collected: FORD E-450 2009
+2025-08-15 14:20:33,874 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,874 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,874 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,874 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,891 - INFO -       Collected: FORD Expedition MAX 2009
+2025-08-15 14:20:33,891 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:33,891 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:33,891 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:33,891 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:33,908 - INFO -       Collected: FORD Motorhome Chassis 2009
+2025-08-15 14:20:33,908 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,908 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,908 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,908 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,921 - INFO -       Collected: FORD Taurus X 2009
+2025-08-15 14:20:33,922 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,922 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,922 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,922 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,922 - INFO -       Collected: FORD Taurus X 2009
+2025-08-15 14:20:33,922 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,922 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,922 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,922 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,940 - INFO -       Collected: FORD Low Cab Forward 2009
+2025-08-15 14:20:33,940 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,940 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,940 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,940 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,957 - INFO -       Collected: FORD '34 2009
+2025-08-15 14:20:33,957 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,957 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,957 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,957 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,976 - INFO -       Collected: FORD Medford Steel 2009
+2025-08-15 14:20:33,976 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,976 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,976 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,976 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:33,993 - INFO -       Collected: FORD Milford Welding & Manufacturing Inc. 2009
+2025-08-15 14:20:33,993 - INFO -         Fuel: Regular
+2025-08-15 14:20:33,993 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:33,993 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:33,993 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:34,011 - INFO -       Collected: FORD Stafford's Trailers 2009
+2025-08-15 14:20:34,012 - INFO -         Fuel: Regular
+2025-08-15 14:20:34,012 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:34,012 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:34,012 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:34,031 - INFO -       Collected: FORD Swinford Mfg 2009
+2025-08-15 14:20:34,032 - INFO -         Fuel: Regular
+2025-08-15 14:20:34,032 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:34,032 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:34,032 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:34,049 - INFO -       Collected: FORD Waterford Tank and Fabrication, LTD 2009
+2025-08-15 14:20:34,049 - INFO -         Fuel: Regular
+2025-08-15 14:20:34,049 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:34,049 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:34,049 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:34,049 - INFO - Processing make: CHEVROLET (ID: 467)
+2025-08-15 14:20:34,049 - INFO -   Processing year: 2008
+2025-08-15 14:20:34,049 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/CHEVROLET/modelyear/2008?format=json
+2025-08-15 14:20:34,662 - INFO - Received 43 results
+2025-08-15 14:20:35,166 - INFO -     Found 43 models for CHEVROLET 2008
+2025-08-15 14:20:35,185 - INFO -       Collected: CHEVROLET Aveo 2008
+2025-08-15 14:20:35,185 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,185 - INFO -         MPG: City 23, Highway 32, Combined 26
+2025-08-15 14:20:35,185 - INFO -         Consumption: 9.05 L/100km
+2025-08-15 14:20:35,185 - INFO -         Annual Cost: $1850
+2025-08-15 14:20:35,197 - INFO -       Collected: CHEVROLET Corvette 2008
+2025-08-15 14:20:35,198 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,198 - INFO -         MPG: City 16, Highway 26, Combined 19
+2025-08-15 14:20:35,198 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,198 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,213 - INFO -       Collected: CHEVROLET Impala 2008
+2025-08-15 14:20:35,213 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,213 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,213 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,213 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,225 - INFO -       Collected: CHEVROLET Malibu 2008
+2025-08-15 14:20:35,225 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,225 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:35,226 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:35,226 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:35,247 - INFO -       Collected: CHEVROLET Spark 2008
+2025-08-15 14:20:35,248 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,248 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,248 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,248 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,260 - INFO -       Collected: CHEVROLET Equinox 2008
+2025-08-15 14:20:35,260 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,260 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,260 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,260 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:35,260 - INFO -       Collected: CHEVROLET Equinox 2008
+2025-08-15 14:20:35,260 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,260 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,260 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,260 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:35,272 - INFO -       Collected: CHEVROLET Express 2008
+2025-08-15 14:20:35,272 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,272 - INFO -         MPG: City 12, Highway 16, Combined 14
+2025-08-15 14:20:35,272 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:35,272 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:35,272 - INFO -       Collected: CHEVROLET Express 2008
+2025-08-15 14:20:35,272 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,272 - INFO -         MPG: City 12, Highway 16, Combined 14
+2025-08-15 14:20:35,272 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:35,272 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:35,272 - INFO -       Collected: CHEVROLET Express 2008
+2025-08-15 14:20:35,272 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,272 - INFO -         MPG: City 12, Highway 16, Combined 14
+2025-08-15 14:20:35,273 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:35,273 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:35,273 - INFO -       Collected: CHEVROLET Express 2008
+2025-08-15 14:20:35,273 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,273 - INFO -         MPG: City 12, Highway 16, Combined 14
+2025-08-15 14:20:35,273 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:35,273 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:35,285 - INFO -       Collected: CHEVROLET Silverado 2008
+2025-08-15 14:20:35,285 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,285 - INFO -         MPG: City 15, Highway 20, Combined 17
+2025-08-15 14:20:35,285 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:35,285 - INFO -         Annual Cost: $2850
+2025-08-15 14:20:35,285 - INFO -       Collected: CHEVROLET Silverado 2008
+2025-08-15 14:20:35,285 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,285 - INFO -         MPG: City 15, Highway 20, Combined 17
+2025-08-15 14:20:35,285 - INFO -         Consumption: 13.84 L/100km
+2025-08-15 14:20:35,285 - INFO -         Annual Cost: $2850
+2025-08-15 14:20:35,298 - INFO -       Collected: CHEVROLET Suburban 2008
+2025-08-15 14:20:35,298 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,298 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,298 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,298 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,298 - INFO -       Collected: CHEVROLET Suburban 2008
+2025-08-15 14:20:35,298 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,298 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,298 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,298 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,311 - INFO -       Collected: CHEVROLET Tahoe 2008
+2025-08-15 14:20:35,311 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,311 - INFO -         MPG: City 14, Highway 19, Combined 16
+2025-08-15 14:20:35,311 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,311 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,311 - INFO -       Collected: CHEVROLET Tahoe 2008
+2025-08-15 14:20:35,311 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,311 - INFO -         MPG: City 14, Highway 19, Combined 16
+2025-08-15 14:20:35,311 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,311 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,330 - INFO -       Collected: CHEVROLET Geo Prizm 2008
+2025-08-15 14:20:35,331 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,331 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,331 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,331 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,343 - INFO -       Collected: CHEVROLET Avalanche 2008
+2025-08-15 14:20:35,343 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,343 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,343 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,343 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,343 - INFO -       Collected: CHEVROLET Avalanche 2008
+2025-08-15 14:20:35,343 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,343 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,343 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,343 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,363 - INFO -       Collected: CHEVROLET Matiz 2008
+2025-08-15 14:20:35,363 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,363 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,363 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,363 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,375 - INFO -       Collected: CHEVROLET Colorado 2008
+2025-08-15 14:20:35,375 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,375 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:35,375 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:35,375 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:35,375 - INFO -       Collected: CHEVROLET Colorado 2008
+2025-08-15 14:20:35,375 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,375 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:35,375 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:35,375 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:35,388 - INFO -       Collected: CHEVROLET Cobalt 2008
+2025-08-15 14:20:35,388 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,388 - INFO -         MPG: City 22, Highway 32, Combined 26
+2025-08-15 14:20:35,388 - INFO -         Consumption: 9.05 L/100km
+2025-08-15 14:20:35,388 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:35,408 - INFO -       Collected: CHEVROLET Optra 2008
+2025-08-15 14:20:35,408 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,408 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,408 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,408 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,428 - INFO -       Collected: CHEVROLET Kalos 2008
+2025-08-15 14:20:35,428 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,428 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,428 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,428 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,439 - INFO -       Collected: CHEVROLET Trailblazer 2008
+2025-08-15 14:20:35,439 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,440 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,440 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,440 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,440 - INFO -       Collected: CHEVROLET Trailblazer 2008
+2025-08-15 14:20:35,440 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,440 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:35,440 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:35,440 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:35,453 - INFO -       Collected: CHEVROLET HHR 2008
+2025-08-15 14:20:35,453 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,453 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:35,453 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:35,453 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:35,453 - INFO -       Collected: CHEVROLET HHR 2008
+2025-08-15 14:20:35,453 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,453 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:35,453 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:35,453 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:35,453 - INFO -       Collected: CHEVROLET HHR 2008
+2025-08-15 14:20:35,453 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,453 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:35,453 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:35,453 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:35,465 - INFO -       Collected: CHEVROLET Uplander 2008
+2025-08-15 14:20:35,465 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,465 - INFO -         MPG: City 16, Highway 23, Combined 19
+2025-08-15 14:20:35,465 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,465 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:35,465 - INFO -       Collected: CHEVROLET Uplander 2008
+2025-08-15 14:20:35,465 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,465 - INFO -         MPG: City 16, Highway 23, Combined 19
+2025-08-15 14:20:35,465 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,465 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:35,465 - INFO -       Collected: CHEVROLET Uplander 2008
+2025-08-15 14:20:35,465 - INFO -         Fuel: Regular
+2025-08-15 14:20:35,465 - INFO -         MPG: City 16, Highway 23, Combined 19
+2025-08-15 14:20:35,465 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,465 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:35,486 - INFO -       Collected: CHEVROLET W4 2008
+2025-08-15 14:20:35,486 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,486 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,486 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,486 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,507 - INFO -       Collected: CHEVROLET W5 2008
+2025-08-15 14:20:35,507 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,507 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,507 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,507 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,525 - INFO -       Collected: CHEVROLET T-Series 2008
+2025-08-15 14:20:35,525 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,525 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,525 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,525 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,547 - INFO -       Collected: CHEVROLET C4 2008
+2025-08-15 14:20:35,547 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,547 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,547 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,547 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,568 - INFO -       Collected: CHEVROLET C5 2008
+2025-08-15 14:20:35,568 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,568 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,568 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,568 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,589 - INFO -       Collected: CHEVROLET C6 2008
+2025-08-15 14:20:35,589 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,589 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,589 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,589 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,610 - INFO -       Collected: CHEVROLET C7 2008
+2025-08-15 14:20:35,610 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,610 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,610 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,610 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,631 - INFO -       Collected: CHEVROLET C8 2008
+2025-08-15 14:20:35,631 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,631 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,631 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,631 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,653 - INFO -       Collected: CHEVROLET W7 2008
+2025-08-15 14:20:35,653 - INFO -         Fuel: Premium
+2025-08-15 14:20:35,653 - INFO -         MPG: City 16, Highway 24, Combined 19
+2025-08-15 14:20:35,653 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:35,653 - INFO -         Annual Cost: $3250
+2025-08-15 14:20:35,653 - INFO -   Processing year: 2009
+2025-08-15 14:20:35,653 - INFO - Making request to: https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeYear/make/CHEVROLET/modelyear/2009?format=json
+2025-08-15 14:20:36,228 - INFO - Received 52 results
+2025-08-15 14:20:36,731 - INFO -     Found 52 models for CHEVROLET 2009
+2025-08-15 14:20:36,752 - INFO -       Collected: CHEVROLET Aveo 2009
+2025-08-15 14:20:36,752 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,752 - INFO -         MPG: City 25, Highway 34, Combined 28
+2025-08-15 14:20:36,752 - INFO -         Consumption: 8.4 L/100km
+2025-08-15 14:20:36,752 - INFO -         Annual Cost: $1700
+2025-08-15 14:20:36,764 - INFO -       Collected: CHEVROLET Corvette 2009
+2025-08-15 14:20:36,764 - INFO -         Fuel: Premium
+2025-08-15 14:20:36,764 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:36,764 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:36,764 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,777 - INFO -       Collected: CHEVROLET Impala 2009
+2025-08-15 14:20:36,777 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,777 - INFO -         MPG: City 18, Highway 29, Combined 22
+2025-08-15 14:20:36,777 - INFO -         Consumption: 10.69 L/100km
+2025-08-15 14:20:36,777 - INFO -         Annual Cost: $2200
+2025-08-15 14:20:36,790 - INFO -       Collected: CHEVROLET Malibu 2009
+2025-08-15 14:20:36,790 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,790 - INFO -         MPG: City 22, Highway 33, Combined 26
+2025-08-15 14:20:36,790 - INFO -         Consumption: 9.05 L/100km
+2025-08-15 14:20:36,790 - INFO -         Annual Cost: $1850
+2025-08-15 14:20:36,802 - INFO -       Collected: CHEVROLET Equinox 2009
+2025-08-15 14:20:36,802 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,802 - INFO -         MPG: City 17, Highway 24, Combined 20
+2025-08-15 14:20:36,802 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:36,802 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:36,802 - INFO -       Collected: CHEVROLET Equinox 2009
+2025-08-15 14:20:36,802 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,802 - INFO -         MPG: City 17, Highway 24, Combined 20
+2025-08-15 14:20:36,802 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:36,802 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:36,802 - INFO -       Collected: CHEVROLET Equinox 2009
+2025-08-15 14:20:36,802 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,802 - INFO -         MPG: City 17, Highway 24, Combined 20
+2025-08-15 14:20:36,802 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:36,802 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:36,814 - INFO -       Collected: CHEVROLET Express 2009
+2025-08-15 14:20:36,814 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:36,814 - INFO -         MPG: City 13, Highway 16, Combined 14
+2025-08-15 14:20:36,814 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:36,814 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,814 - INFO -       Collected: CHEVROLET Express 2009
+2025-08-15 14:20:36,814 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:36,814 - INFO -         MPG: City 13, Highway 16, Combined 14
+2025-08-15 14:20:36,814 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:36,814 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,814 - INFO -       Collected: CHEVROLET Express 2009
+2025-08-15 14:20:36,814 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:36,814 - INFO -         MPG: City 13, Highway 16, Combined 14
+2025-08-15 14:20:36,815 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:36,815 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,815 - INFO -       Collected: CHEVROLET Express 2009
+2025-08-15 14:20:36,815 - INFO -         Fuel: Gasoline or E85
+2025-08-15 14:20:36,815 - INFO -         MPG: City 13, Highway 16, Combined 14
+2025-08-15 14:20:36,815 - INFO -         Consumption: 16.8 L/100km
+2025-08-15 14:20:36,815 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,834 - INFO -       Collected: CHEVROLET Orlando 2009
+2025-08-15 14:20:36,834 - INFO -         Fuel: Premium
+2025-08-15 14:20:36,834 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:36,834 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:36,834 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,846 - INFO -       Collected: CHEVROLET Silverado 2009
+2025-08-15 14:20:36,846 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,846 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,846 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,846 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,846 - INFO -       Collected: CHEVROLET Silverado 2009
+2025-08-15 14:20:36,846 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,846 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,846 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,846 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,859 - INFO -       Collected: CHEVROLET Suburban 2009
+2025-08-15 14:20:36,859 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,859 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,859 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,859 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,859 - INFO -       Collected: CHEVROLET Suburban 2009
+2025-08-15 14:20:36,859 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,859 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,859 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,859 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,859 - INFO -       Collected: CHEVROLET Suburban 2009
+2025-08-15 14:20:36,859 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,859 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,859 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,859 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,872 - INFO -       Collected: CHEVROLET Tahoe 2009
+2025-08-15 14:20:36,872 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,872 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,872 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,872 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,872 - INFO -       Collected: CHEVROLET Tahoe 2009
+2025-08-15 14:20:36,872 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,872 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,872 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,872 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,872 - INFO -       Collected: CHEVROLET Tahoe 2009
+2025-08-15 14:20:36,872 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,872 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,872 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,872 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,884 - INFO -       Collected: CHEVROLET Traverse 2009
+2025-08-15 14:20:36,884 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,884 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:36,884 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:36,884 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:36,884 - INFO -       Collected: CHEVROLET Traverse 2009
+2025-08-15 14:20:36,884 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,884 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:36,884 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:36,884 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:36,884 - INFO -       Collected: CHEVROLET Traverse 2009
+2025-08-15 14:20:36,884 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,884 - INFO -         MPG: City 17, Highway 24, Combined 19
+2025-08-15 14:20:36,884 - INFO -         Consumption: 12.38 L/100km
+2025-08-15 14:20:36,885 - INFO -         Annual Cost: $2550
+2025-08-15 14:20:36,903 - INFO -       Collected: CHEVROLET Geo Prizm 2009
+2025-08-15 14:20:36,904 - INFO -         Fuel: Premium
+2025-08-15 14:20:36,904 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:36,904 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:36,904 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,915 - INFO -       Collected: CHEVROLET Avalanche 2009
+2025-08-15 14:20:36,915 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,915 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,915 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,915 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,915 - INFO -       Collected: CHEVROLET Avalanche 2009
+2025-08-15 14:20:36,915 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,915 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,915 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,915 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,915 - INFO -       Collected: CHEVROLET Avalanche 2009
+2025-08-15 14:20:36,915 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,915 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,915 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,915 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,927 - INFO -       Collected: CHEVROLET Colorado 2009
+2025-08-15 14:20:36,927 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,928 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:36,928 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:36,928 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:36,928 - INFO -       Collected: CHEVROLET Colorado 2009
+2025-08-15 14:20:36,928 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,928 - INFO -         MPG: City 18, Highway 24, Combined 20
+2025-08-15 14:20:36,928 - INFO -         Consumption: 11.76 L/100km
+2025-08-15 14:20:36,928 - INFO -         Annual Cost: $2400
+2025-08-15 14:20:36,940 - INFO -       Collected: CHEVROLET Cobalt 2009
+2025-08-15 14:20:36,943 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,943 - INFO -         MPG: City 22, Highway 30, Combined 25
+2025-08-15 14:20:36,943 - INFO -         Consumption: 9.41 L/100km
+2025-08-15 14:20:36,943 - INFO -         Annual Cost: $1950
+2025-08-15 14:20:36,964 - INFO -       Collected: CHEVROLET Optra 2009
+2025-08-15 14:20:36,964 - INFO -         Fuel: Premium
+2025-08-15 14:20:36,964 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:36,964 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:36,964 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:36,975 - INFO -       Collected: CHEVROLET Trailblazer 2009
+2025-08-15 14:20:36,975 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,975 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,975 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,975 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,975 - INFO -       Collected: CHEVROLET Trailblazer 2009
+2025-08-15 14:20:36,975 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,975 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,975 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,975 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,975 - INFO -       Collected: CHEVROLET Trailblazer 2009
+2025-08-15 14:20:36,975 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,975 - INFO -         MPG: City 14, Highway 20, Combined 16
+2025-08-15 14:20:36,975 - INFO -         Consumption: 14.7 L/100km
+2025-08-15 14:20:36,975 - INFO -         Annual Cost: $3000
+2025-08-15 14:20:36,988 - INFO -       Collected: CHEVROLET HHR 2009
+2025-08-15 14:20:36,988 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,988 - INFO -         MPG: City 21, Highway 29, Combined 24
+2025-08-15 14:20:36,988 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:36,988 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:36,988 - INFO -       Collected: CHEVROLET HHR 2009
+2025-08-15 14:20:36,988 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,988 - INFO -         MPG: City 21, Highway 29, Combined 24
+2025-08-15 14:20:36,988 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:36,988 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:36,988 - INFO -       Collected: CHEVROLET HHR 2009
+2025-08-15 14:20:36,988 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,988 - INFO -         MPG: City 21, Highway 29, Combined 24
+2025-08-15 14:20:36,988 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:36,988 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:36,988 - INFO -       Collected: CHEVROLET HHR 2009
+2025-08-15 14:20:36,988 - INFO -         Fuel: Regular
+2025-08-15 14:20:36,988 - INFO -         MPG: City 21, Highway 29, Combined 24
+2025-08-15 14:20:36,988 - INFO -         Consumption: 9.8 L/100km
+2025-08-15 14:20:36,988 - INFO -         Annual Cost: $2000
+2025-08-15 14:20:37,006 - INFO -       Collected: CHEVROLET Uplander 2009
+2025-08-15 14:20:37,006 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,006 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,006 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,006 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,006 - INFO -       Collected: CHEVROLET Uplander 2009
+2025-08-15 14:20:37,006 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,006 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,006 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,006 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,006 - INFO -       Collected: CHEVROLET Uplander 2009
+2025-08-15 14:20:37,006 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,006 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,006 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,006 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,027 - INFO -       Collected: CHEVROLET W4 2009
+2025-08-15 14:20:37,027 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,027 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,027 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,027 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,048 - INFO -       Collected: CHEVROLET W5 2009
+2025-08-15 14:20:37,048 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,048 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,048 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,048 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,066 - INFO -       Collected: CHEVROLET T-Series 2009
+2025-08-15 14:20:37,066 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,066 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,066 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,066 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,087 - INFO -       Collected: CHEVROLET C4 2009
+2025-08-15 14:20:37,087 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,087 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,087 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,087 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,108 - INFO -       Collected: CHEVROLET C5 2009
+2025-08-15 14:20:37,108 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,108 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,108 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,108 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,128 - INFO -       Collected: CHEVROLET C6 2009
+2025-08-15 14:20:37,128 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,128 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,128 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,128 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,149 - INFO -       Collected: CHEVROLET C7 2009
+2025-08-15 14:20:37,149 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,149 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,149 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,149 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,170 - INFO -       Collected: CHEVROLET C8 2009
+2025-08-15 14:20:37,170 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,170 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,170 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,170 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,190 - INFO -       Collected: CHEVROLET W7 2009
+2025-08-15 14:20:37,190 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,190 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,190 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,190 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,207 - INFO -       Collected: CHEVROLET W3500/W4500 2009
+2025-08-15 14:20:37,207 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,207 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,207 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,207 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,224 - INFO -       Collected: CHEVROLET W5500/W5500 HD 2009
+2025-08-15 14:20:37,224 - INFO -         Fuel: Premium
+2025-08-15 14:20:37,224 - INFO -         MPG: City 15, Highway 25, Combined 18
+2025-08-15 14:20:37,224 - INFO -         Consumption: 13.07 L/100km
+2025-08-15 14:20:37,224 - INFO -         Annual Cost: $3450
+2025-08-15 14:20:37,224 - INFO - Data collection complete. Total vehicles collected: 392
+2025-08-15 14:20:37,230 - INFO - Data saved to vehicle_data/vehicle_data_with_fuel_20250815_142037.json
+2025-08-15 14:20:37,232 - INFO - Data saved to vehicle_data/vehicle_data_with_fuel_20250815_142037.csv
+2025-08-15 14:20:37,232 - INFO - 
+============================================================
+2025-08-15 14:20:37,232 - INFO - COLLECTION SUMMARY - WITH FUEL ECONOMY DATA
+2025-08-15 14:20:37,232 - INFO - ============================================================
+2025-08-15 14:20:37,232 - INFO - Total vehicles collected: 392
+2025-08-15 14:20:37,232 - INFO - Unique makes: 5
+2025-08-15 14:20:37,232 - INFO - Years covered: [2008, 2009]
+2025-08-15 14:20:37,232 - INFO - Fuel types found: Diesel, Gasoline or E85, Premium, Regular
+2025-08-15 14:20:37,232 - INFO - Makes covered: BMW, CHEVROLET, FORD, MERCEDES-BENZ, TOYOTA
+2025-08-15 14:20:37,232 - INFO - 
+Sample data with fuel economy:
+2025-08-15 14:20:37,232 - INFO - 1. 2008 TOYOTA Scion tC
+2025-08-15 14:20:37,232 - INFO -    Fuel: Regular, Engine: 2.4L
+2025-08-15 14:20:37,232 - INFO -    MPG: 25, L/100km: 9.41
+2025-08-15 14:20:37,232 - INFO -    Annual Cost: $1950
+2025-08-15 14:20:37,232 - INFO - 2. 2008 TOYOTA Corolla
+2025-08-15 14:20:37,232 - INFO -    Fuel: Regular, Engine: 1.8L
+2025-08-15 14:20:37,232 - INFO -    MPG: 29, L/100km: 8.11
+2025-08-15 14:20:37,232 - INFO -    Annual Cost: $1650
+2025-08-15 14:20:37,232 - INFO - 3. 2008 TOYOTA Prius
+2025-08-15 14:20:37,232 - INFO -    Fuel: Regular, Engine: 1.5L
+2025-08-15 14:20:37,232 - INFO -    MPG: 46, L/100km: 5.11
+2025-08-15 14:20:37,232 - INFO -    Annual Cost: $1050
+2025-08-15 14:20:37,232 - INFO - 4. 2008 TOYOTA Scion xB
+2025-08-15 14:20:37,232 - INFO -    Fuel: Regular, Engine: 2.4L
+2025-08-15 14:20:37,232 - INFO -    MPG: 25, L/100km: 9.41
+2025-08-15 14:20:37,232 - INFO -    Annual Cost: $1950
+2025-08-15 14:20:37,232 - INFO - 5. 2008 TOYOTA Land Cruiser
+2025-08-15 14:20:37,232 - INFO -    Fuel: Regular, Engine: 5.7L
+2025-08-15 14:20:37,232 - INFO -    MPG: 15, L/100km: 15.68
+2025-08-15 14:20:37,232 - INFO -    Annual Cost: $3200
